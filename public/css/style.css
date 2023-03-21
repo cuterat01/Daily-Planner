@@ -1,0 +1,28 @@
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgba(237, 21, 87, 0.16);
+    border: 5px solid pink;
+    font-size: 2rem;
+    text-shadow: 0 0 5px #FF0000, 0 0 2px pink;
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+form, input, h3{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+.container-item{
+    border: 2px solid red;
+    width: 50%;
+}
